@@ -185,3 +185,19 @@
     content: url(./img/arrow-right.png);
   }
   
+  /* Slider Mobile */
+  .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
+  .dots span {
+    display:flex;
+    width: 8px;
+    height: 8px;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 20px;
+    background: linear-gradient(236.84deg, #9C8BEA 1.49%, #544695 105.35%);
+    border-radius: 50%;
+  }

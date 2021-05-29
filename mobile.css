@@ -2,7 +2,9 @@
   .container {
     width: 1312px;
   }
-
+  .col-ld-0 {
+    display: none;
+  }
   .col-ld-1 {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%;
@@ -63,13 +65,158 @@
     max-width: 100%;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .container {
-    width: 375px;
+    width: 1000px;
+  }
+  .col-md-0 {
+    display: none;
+  }
+  .col-md-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 740px;
   }
   .box {
-    flex: 100%;
+    flex: 49%;
+    max-width: 49%;
+  }
+  .col-sm-0 {
+    display: none;
+  }
+  .col-sm-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-sm-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-sm-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-sm-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-sm-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-sm-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-sm-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-sm-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-sm-12 {
+    flex: 0 0 100%;
     max-width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 480px;
+  }
+  
+  .row-overflow {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: unset;
+  }
+  .box {
+    min-width: 480px;
+    max-width: 480px;
   }
   .main-content {
     position: relative;
@@ -80,6 +227,109 @@
   .main-content-box {
     margin-top: 204px;
     width: 100%;
+  }
+  .slide-img {
+    width: 152px;
+    height: 152px;
+  }
+  .col-xs-w-0 {
+    display: none;
+  }
+  .col-xs-0 {
+    display: none;
+  }
+  .col-xs-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-xs-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-xs-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-xs-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-xs-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xs-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-xs-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-xs-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-xs-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-xs-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 320px;
+  }
+  .row-overflow {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+  .box {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 16px 0 0;
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .main-content {
+    position: relative;
+    background: url(./img/main-img.jpg) no-repeat;
+    background-position: 65% 0;
+    background-size: cover;
+  }
+  .main-content-box {
+    margin-top: 204px;
+    width: 100%;
+  }
+  .slide-img {
+    width: 132px;
+    height: 132px;
   }
   .col-xs-1 {
     flex: 0 0 8.3333333333%;
