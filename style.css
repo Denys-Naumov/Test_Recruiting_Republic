@@ -167,6 +167,7 @@
   .slide-img {
     width: 192px;
     height: 192px;
+    border-radius: 30px;
   }
   .img-slider-box p {
     margin-bottom: 32px;

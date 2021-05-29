@@ -231,6 +231,7 @@
   .slide-img {
     width: 152px;
     height: 152px;
+    border-radius: 25px;
   }
   .col-xs-w-0 {
     display: none;
@@ -330,6 +331,7 @@
   .slide-img {
     width: 132px;
     height: 132px;
+    border-radius: 20px;
   }
   .col-xs-1 {
     flex: 0 0 8.3333333333%;
